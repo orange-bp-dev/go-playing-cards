@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	cards := newDeck()
 	fmt.Println(cards.toString())
+	cards.saveToFile("my_cards")
 
 	// for _, card := range cards {
 	// 	fmt.Println(card)
